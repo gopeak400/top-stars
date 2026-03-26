@@ -3,91 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>دليل الطوالع وهجرة الطيور</title>
+    <title>دليل الطوالع والطيور الشامل</title>
     <style>
         @font-face { font-family: 'GeezaPro'; src: url('fonts/GeezaPro.ttf') format('truetype'); }
-        body { font-family: 'GeezaPro', Tahoma, sans-serif; background-color: #0f172a; color: white; margin: 0; padding: 15px; line-height: 1.6; }
-        .container { max-width: 650px; margin: 0 auto; }
-        header { text-align: center; padding: 30px; background: #1e293b; border-radius: 20px; margin-bottom: 25px; border: 1px solid #334155; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
-        .season-section { margin-bottom: 40px; }
-        .season-header { background: #38bdf8; color: #0f172a; padding: 10px 20px; border-radius: 12px; font-weight: bold; margin-bottom: 15px; display: inline-block; }
-        .star-card { background: #1e293b; border-radius: 18px; padding: 20px; margin-bottom: 20px; border-right: 8px solid #38bdf8; position: relative; }
-        .star-header { display: flex; align-items: center; margin-bottom: 15px; }
-        .star-header img { width: 70px; height: 70px; margin-left: 15px; border-radius: 12px; background: #0f172a; padding: 5px; }
-        .star-title h2 { margin: 0; color: #38bdf8; font-size: 1.4rem; }
-        .date-badge { background: #0ea5e9; color: white; padding: 3px 10px; border-radius: 8px; font-size: 0.85rem; margin-top: 5px; display: inline-block; }
-        .detail-row { display: flex; justify-content: space-between; background: #334155; padding: 8px 12px; border-radius: 10px; margin-top: 10px; font-size: 0.9rem; }
-        .birds-box { background: rgba(14, 165, 233, 0.1); border: 1px dashed #38bdf8; padding: 12px; border-radius: 12px; margin-top: 15px; }
-        .birds-box strong { color: #7dd3fc; display: block; margin-bottom: 5px; }
-        .next-star { color: #94a3b8; font-size: 0.8rem; margin-top: 10px; text-align: left; }
+        body { font-family: 'GeezaPro', Tahoma, sans-serif; background-color: #0f172a; color: white; margin: 0; padding: 15px; }
+        .container { max-width: 700px; margin: 0 auto; }
+        header { text-align: center; padding: 25px; background: #1e293b; border-radius: 20px; margin-bottom: 25px; border: 1px solid #334155; }
+        .season-header { background: #0ea5e9; color: white; padding: 12px; border-radius: 12px; margin: 30px 0 15px; text-align: center; font-weight: bold; font-size: 1.3rem; }
+        .star-card { background: #1e293b; border-radius: 18px; padding: 15px; margin-bottom: 20px; border-right: 6px solid #38bdf8; }
+        .star-top { display: flex; align-items: center; margin-bottom: 10px; }
+        .star-top img { width: 65px; height: 65px; margin-left: 15px; border-radius: 10px; background: #0f172a; }
+        .star-title h2 { margin: 0; color: #38bdf8; font-size: 1.3rem; }
+        .date-info { font-size: 0.85rem; color: #fbbf24; font-weight: bold; margin-top: 4px; }
+        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; font-size: 0.85rem; }
+        .info-item { background: #334155; padding: 8px; border-radius: 8px; text-align: center; }
+        .birds-info { background: rgba(56, 189, 248, 0.1); border: 1px dashed #38bdf8; padding: 10px; border-radius: 10px; margin-top: 12px; font-size: 0.9rem; }
+        .birds-info strong { color: #7dd3fc; }
+        .next-star { font-size: 0.8rem; color: #94a3b8; text-align: left; margin-top: 10px; border-top: 1px solid #334155; padding-top: 5px; }
     </style>
 </head>
 <body>
+
 <div class="container">
     <header>
-        <h1>دليل النجوم والطيور</h1>
-        <p>التقويم الفلكي الشامل للطوالع والمواسم</p>
+        <h1>مرجع الطوالع وهجرة الطيور</h1>
+        <p>التقويم الميلادي وتتبع حركة الطيور</p>
     </header>
 
-    <div class="season-section">
-        <div class="season-header">فصل الربيع (الحميمين والذرعان)</div>
-        
-        <div class="star-card">
-            <div class="star-header">
-                <img src="images/icon_star_1.png">
-                <div class="star-title">
-                    <h2>الشرطين</h2>
-                    <span class="date-badge">من 12 مايو إلى 24 مايو</span>
-                </div>
+    <div class="season-header">فصل الربيع (الذرعان والحميمين)</div>
+    
+    <div class="star-card">
+        <div class="star-top">
+            <img src="images/icon_star_1.png">
+            <div class="star-title">
+                <h2>الشرطين</h2>
+                <div class="date-info">12 مايو - 24 مايو (13 يوماً)</div>
             </div>
-            <p>أول طوالع الربيع، فيه يتساوى الليل والنهار، وتبدأ الهوام بالخروج.</p>
-            <div class="detail-row">
-                <span>المدة: 13 يوماً</span>
-                <span>الحالة: معتدل يميل للحرارة</span>
-            </div>
-            <div class="birds-box">
-                <strong>حركة الطيور:</strong>
-                تبدأ هجرة (القمري) والطيور الصغيرة باتجاه الشمال، وتظهر طيور الماء المهاجرة.
-            </div>
-            <div class="next-star">النجم التالي: البطين ←</div>
         </div>
-
-        <div class="star-card" style="border-right-color: #0ea5e9;">
-            <div class="star-header">
-                <img src="images/icon_star_2.png">
-                <div class="star-title">
-                    <h2>البطين</h2>
-                    <span class="date-badge">من 25 مايو إلى 6 يونيو</span>
-                </div>
-            </div>
-            <p>ثاني طوالع الربيع، يشتد فيه الدفء وتجف فيه الأعشاب الربيعية.</p>
-            <div class="birds-box">
-                <strong>حركة الطيور:</strong>
-                يستمر عبور (الدخل) و(الخواضير)، وتبدأ الطيور في البحث عن أماكن الظل والماء.
-            </div>
-            <div class="next-star">النجم التالي: الثريا ←</div>
+        <div class="info-grid">
+            <div class="info-item">الحالة: معتدل يميل للحرارة</div>
+            <div class="info-item">النشاط: خروج الهوام</div>
         </div>
+        <div class="birds-info">
+            <strong>حركة الطيور:</strong> بداية هجرة (القمري) والطيور الصغيرة للشمال، هجرة العبّور.
+        </div>
+        <div class="next-star">النجم التالي: البطين ←</div>
     </div>
 
-    <div class="season-section">
-        <div class="season-header" style="background: #f59e0b;">فصل الصيف (مربعانية القيظ)</div>
-        <div class="star-card" style="border-right-color: #f59e0b;">
-            <div class="star-header">
-                <img src="images/icon_star_10.png">
-                <div class="star-title">
-                    <h2>الجبهة</h2>
-                    <span class="date-badge">من 6 سبتمبر إلى 18 سبتمبر</span>
-                </div>
+    <div class="star-card">
+        <div class="star-top">
+            <img src="images/icon_star_2.png">
+            <div class="star-title">
+                <h2>البطين</h2>
+                <div class="date-info">25 مايو - 6 يونيو (13 يوماً)</div>
             </div>
-            <p>أول نجوم الخريف (فلكياً) وبداية الصفري، يبرد فيه الليل ويتحسن الجو.</p>
-            <div class="birds-box">
-                <strong>حركة الطيور:</strong>
-                بداية هجرة (السمان) و(الكرك) باتجاه الجنوب، وتواجد كثيف لطيور (الدخل) المهاجرة.
-            </div>
-            <div class="next-star">النجم التالي: الزبرة ←</div>
         </div>
+        <div class="birds-info">
+            <strong>حركة الطيور:</strong> يستمر عبور (الدخل) و(الخواضير)، وتبدأ الطيور بالبحث عن الظل والماء.
+        </div>
+        <div class="next-star">النجم التالي: الثريا ←</div>
     </div>
 
+    <div class="season-header" style="background: #f59e0b;">فصل الصيف (القيظ)</div>
+
+    <div class="star-card" style="border-right-color: #f59e0b;">
+        <div class="star-top">
+            <img src="images/icon_star_8.png">
+            <div class="star-title">
+                <h2>النثرة</h2>
+                <div class="date-info">11 أغسطس - 23 أغسطس (13 يوماً)</div>
+            </div>
+        </div>
+        <div class="birds-info">
+            <strong>حركة الطيور:</strong> بداية هجرة الطيور الصغيرة نحو الجنوب، وطلوع سهيل في آخره.
+        </div>
+        <div class="next-star">النجم التالي: الطرف ←</div>
     </div>
+
+    <div class="season-header" style="background: #f97316;">فصل الخريف (الصفري والوسم)</div>
+
+    <div class="star-card" style="border-right-color: #f97316;">
+        <div class="star-top">
+            <img src="images/icon_star_15.png">
+            <div class="star-title">
+                <h2>الغفر</h2>
+                <div class="date-info">16 أكتوبر - 28 أكتوبر (13 يوماً)</div>
+            </div>
+        </div>
+        <div class="birds-info">
+            <strong>حركة الطيور:</strong> بداية هجرة (الحباري) و(الكرك) و(الصقور)، والاتجاه نحو الجنوب.
+        </div>
+        <div class="next-star">النجم التالي: الزبانا ←</div>
+    </div>
+
+    <div class="season-header" style="background: #6366f1;">فصل الشتاء (المربعانية والشبط)</div>
+
+    <div class="star-card" style="border-right-color: #6366f1;">
+        <div class="star-top">
+            <img src="images/icon_star_22.png">
+            <div class="star-title">
+                <h2>سعد الذابح</h2>
+                <div class="date-info">10 فبراير - 22 فبراير (13 يوماً)</div>
+            </div>
+        </div>
+        <div class="birds-info">
+            <strong>حركة الطيور:</strong> بداية عودة بعض الطيور المهاجرة للشمال (هجرة الانصراف).
+        </div>
+        <div class="next-star">النجم التالي: سعد بلع ←</div>
+    </div>
+
+</div>
+
 </body>
 </html>
