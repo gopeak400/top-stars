@@ -9,110 +9,56 @@
         body { font-family: 'GeezaPro', Tahoma, sans-serif; background-color: #0f172a; color: white; margin: 0; padding: 15px; }
         .container { max-width: 700px; margin: 0 auto; }
         header { text-align: center; padding: 25px; background: #1e293b; border-radius: 20px; margin-bottom: 25px; border: 1px solid #334155; }
-        .season-header { background: #0ea5e9; color: white; padding: 12px; border-radius: 12px; margin: 30px 0 15px; text-align: center; font-weight: bold; font-size: 1.3rem; }
+        .season-header { color: white; padding: 12px; border-radius: 12px; margin: 30px 0 15px; text-align: center; font-weight: bold; font-size: 1.3rem; }
         .star-card { background: #1e293b; border-radius: 18px; padding: 15px; margin-bottom: 20px; border-right: 6px solid #38bdf8; }
         .star-top { display: flex; align-items: center; margin-bottom: 10px; }
         .star-top img { width: 65px; height: 65px; margin-left: 15px; border-radius: 10px; background: #0f172a; }
         .star-title h2 { margin: 0; color: #38bdf8; font-size: 1.3rem; }
         .date-info { font-size: 0.85rem; color: #fbbf24; font-weight: bold; margin-top: 4px; }
-        .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 10px; font-size: 0.85rem; }
-        .info-item { background: #334155; padding: 8px; border-radius: 8px; text-align: center; }
         .birds-info { background: rgba(56, 189, 248, 0.1); border: 1px dashed #38bdf8; padding: 10px; border-radius: 10px; margin-top: 12px; font-size: 0.9rem; }
         .birds-info strong { color: #7dd3fc; }
         .next-star { font-size: 0.8rem; color: #94a3b8; text-align: left; margin-top: 10px; border-top: 1px solid #334155; padding-top: 5px; }
     </style>
 </head>
 <body>
-
 <div class="container">
-    <header>
-        <h1>مرجع الطوالع وهجرة الطيور</h1>
-        <p>التقويم الميلادي وتتبع حركة الطيور</p>
-    </header>
+    <header><h1>مرجع الطوالع وهجرة الطيور</h1><p>التقويم الشامل للـ 28 نجماً</p></header>
 
-    <div class="season-header">فصل الربيع (الذرعان والحميمين)</div>
-    
-    <div class="star-card">
-        <div class="star-top">
-            <img src="images/icon_star_1.png">
-            <div class="star-title">
-                <h2>الشرطين</h2>
-                <div class="date-info">12 مايو - 24 مايو (13 يوماً)</div>
-            </div>
-        </div>
-        <div class="info-grid">
-            <div class="info-item">الحالة: معتدل يميل للحرارة</div>
-            <div class="info-item">النشاط: خروج الهوام</div>
-        </div>
-        <div class="birds-info">
-            <strong>حركة الطيور:</strong> بداية هجرة (القمري) والطيور الصغيرة للشمال، هجرة العبّور.
-        </div>
-        <div class="next-star">النجم التالي: البطين ←</div>
-    </div>
+    <div class="season-header" style="background: #10b981;">فصل الربيع</div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_1.png"><div class="star-title"><h2>الشرطين</h2><div class="date-info">12 مايو - 24 مايو</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة القمري والطيور الصغيرة (عبّور) شمالاً.</div><div class="next-star">التالي: البطين ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_2.png"><div class="star-title"><h2>البطين</h2><div class="date-info">25 مايو - 6 يونيو</div></div></div><div class="birds-info"><strong>الطيور:</strong> عبور الدخل والخواضير باتجاه الشمال.</div><div class="next-star">التالي: الثريا ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_3.png"><div class="star-title"><h2>الثريا</h2><div class="date-info">7 يونيو - 19 يونيو</div></div></div><div class="birds-info"><strong>الطيور:</strong> يقل عبور الطيور المهاجرة بسبب اشتداد الحر.</div><div class="next-star">التالي: الدبران ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_4.png"><div class="star-title"><h2>الدبران</h2><div class="date-info">20 يونيو - 2 يوليو</div></div></div><div class="birds-info"><strong>الطيور:</strong> سكون في حركة الهجرة وبداية تعشيش الطيور المحلية.</div><div class="next-star">التالي: الهقعة ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_5.png"><div class="star-title"><h2>الهقعة</h2><div class="date-info">3 يوليو - 15 يوليو</div></div></div><div class="birds-info"><strong>الطيور:</strong> تواجد طيور المقناص المحلية.</div><div class="next-star">التالي: الهنعة ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_6.png"><div class="star-title"><h2>الهنعة</h2><div class="date-info">16 يوليو - 28 يوليو</div></div></div><div class="birds-info"><strong>الطيور:</strong> يبدأ ظهور بعض الطيور المهاجرة المبكرة جنوباً.</div><div class="next-star">التالي: الذراع ←</div></div>
+    <div class="star-card"><div class="star-top"><img src="images/icon_star_7.png"><div class="star-title"><h2>الذراع</h2><div class="date-info">29 يوليو - 10 أغسطس</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية عودة الدخل والمناجير (هجرة الخريف).</div><div class="next-star">التالي: النثرة ←</div></div>
 
-    <div class="star-card">
-        <div class="star-top">
-            <img src="images/icon_star_2.png">
-            <div class="star-title">
-                <h2>البطين</h2>
-                <div class="date-info">25 مايو - 6 يونيو (13 يوماً)</div>
-            </div>
-        </div>
-        <div class="birds-info">
-            <strong>حركة الطيور:</strong> يستمر عبور (الدخل) و(الخواضير)، وتبدأ الطيور بالبحث عن الظل والماء.
-        </div>
-        <div class="next-star">النجم التالي: الثريا ←</div>
-    </div>
+    <div class="season-header" style="background: #f59e0b;">فصل الصيف</div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_8.png"><div class="star-title"><h2>النثرة</h2><div class="date-info">11 أغسطس - 23 أغسطس</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة الدخل والصفار جنوباً.</div><div class="next-star">التالي: الطرف ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_9.png"><div class="star-title"><h2>الطرف</h2><div class="date-info">24 أغسطس - 5 سبتمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة الدخل الروماني والسمان.</div><div class="next-star">التالي: الجبهة ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_10.png"><div class="star-title"><h2>الجبهة</h2><div class="date-info">6 سبتمبر - 18 سبتمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> ذروة هجرة الدخل وبداية القمري (الدرج).</div><div class="next-star">التالي: الزبرة ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_11.png"><div class="star-title"><h2>الزبرة</h2><div class="date-info">19 سبتمبر - 1 أكتوبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> استمرار هجرة القمري والكرك الكحل.</div><div class="next-star">التالي: الصرفة ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_12.png"><div class="star-title"><h2>الصرفة</h2><div class="date-info">2 أكتوبر - 14 أكتوبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة الصقور والحباري (العبور الأول).</div><div class="next-star">التالي: العواء ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_13.png"><div class="star-title"><h2>العواء</h2><div class="date-info">15 أكتوبر - 27 أكتوبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> هجرة الحبارى والسمان والقطا.</div><div class="next-star">التالي: السماك ←</div></div>
+    <div class="star-card" style="border-right-color: #f59e0b;"><div class="star-top"><img src="images/icon_star_14.png"><div class="star-title"><h2>السماك</h2><div class="date-info">28 أكتوبر - 9 نوفمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> استمرار هجرة الصقور وبداية هجرة الكروان.</div><div class="next-star">التالي: الغفر ←</div></div>
 
-    <div class="season-header" style="background: #f59e0b;">فصل الصيف (القيظ)</div>
+    <div class="season-header" style="background: #f97316;">فصل الخريف</div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_15.png"><div class="star-title"><h2>الغفر</h2><div class="date-info">10 نوفمبر - 22 نوفمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة الوز والبط والطيور الشتوية.</div><div class="next-star">التالي: الزبانا ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_16.png"><div class="star-title"><h2>الزبانا</h2><div class="date-info">23 نوفمبر - 5 ديسمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> وصول الطيور الجارحة الكبيرة للاستيطان الشتوي.</div><div class="next-star">التالي: الإكليل ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_17.png"><div class="star-title"><h2>الإكليل</h2><div class="date-info">6 ديسمبر - 18 ديسمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> سكون الهجرة وبداية استقرار الطيور الشتوية.</div><div class="next-star">التالي: القلب ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_18.png"><div class="star-title"><h2>القلب</h2><div class="date-info">19 ديسمبر - 31 ديسمبر</div></div></div><div class="birds-info"><strong>الطيور:</strong> اختفاء معظم الطيور المهاجرة في الملاجئ الشتوية.</div><div class="next-star">التالي: الشولة ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_19.png"><div class="star-title"><h2>الشولة</h2><div class="date-info">1 يناير - 13 يناير</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية تحرك طيور الماء باتجاه الشمال في آخره.</div><div class="next-star">التالي: النعائم ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_20.png"><div class="star-title"><h2>النعائم</h2><div class="date-info">14 يناير - 26 يناير</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية عودة بعض الطيور الصغيرة شمالاً.</div><div class="next-star">التالي: البلدة ←</div></div>
+    <div class="star-card" style="border-right-color: #f97316;"><div class="star-top"><img src="images/icon_star_21.png"><div class="star-title"><h2>البلدة</h2><div class="date-info">27 يناير - 8 فبراير</div></div></div><div class="birds-info"><strong>الطيور:</strong> هجرة الوز والبط شمالاً (بداية الانصراف).</div><div class="next-star">التالي: سعد الذابح ←</div></div>
 
-    <div class="star-card" style="border-right-color: #f59e0b;">
-        <div class="star-top">
-            <img src="images/icon_star_8.png">
-            <div class="star-title">
-                <h2>النثرة</h2>
-                <div class="date-info">11 أغسطس - 23 أغسطس (13 يوماً)</div>
-            </div>
-        </div>
-        <div class="birds-info">
-            <strong>حركة الطيور:</strong> بداية هجرة الطيور الصغيرة نحو الجنوب، وطلوع سهيل في آخره.
-        </div>
-        <div class="next-star">النجم التالي: الطرف ←</div>
-    </div>
-
-    <div class="season-header" style="background: #f97316;">فصل الخريف (الصفري والوسم)</div>
-
-    <div class="star-card" style="border-right-color: #f97316;">
-        <div class="star-top">
-            <img src="images/icon_star_15.png">
-            <div class="star-title">
-                <h2>الغفر</h2>
-                <div class="date-info">16 أكتوبر - 28 أكتوبر (13 يوماً)</div>
-            </div>
-        </div>
-        <div class="birds-info">
-            <strong>حركة الطيور:</strong> بداية هجرة (الحباري) و(الكرك) و(الصقور)، والاتجاه نحو الجنوب.
-        </div>
-        <div class="next-star">النجم التالي: الزبانا ←</div>
-    </div>
-
-    <div class="season-header" style="background: #6366f1;">فصل الشتاء (المربعانية والشبط)</div>
-
-    <div class="star-card" style="border-right-color: #6366f1;">
-        <div class="star-top">
-            <img src="images/icon_star_22.png">
-            <div class="star-title">
-                <h2>سعد الذابح</h2>
-                <div class="date-info">10 فبراير - 22 فبراير (13 يوماً)</div>
-            </div>
-        </div>
-        <div class="birds-info">
-            <strong>حركة الطيور:</strong> بداية عودة بعض الطيور المهاجرة للشمال (هجرة الانصراف).
-        </div>
-        <div class="next-star">النجم التالي: سعد بلع ←</div>
-    </div>
-
+    <div class="season-header" style="background: #60a5fa;">فصل الشتاء</div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_22.png"><div class="star-top"><div class="star-title"><h2>سعد الذابح</h2><div class="date-info">9 فبراير - 21 فبراير</div></div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة طيور الربيع المبكرة شمالاً.</div><div class="next-star">التالي: سعد بلع ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_23.png"><div class="star-title"><h2>سعد بلع</h2><div class="date-info">22 فبراير - 6 مارس</div></div></div><div class="birds-info"><strong>الطيور:</strong> عودة طيور الجوني والسمان باتجاه الشمال.</div><div class="next-star">التالي: سعد السعود ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_24.png"><div class="star-title"><h2>سعد السعود</h2><div class="date-info">7 مارس - 19 مارس</div></div></div><div class="birds-info"><strong>الطيور:</strong> بداية هجرة الهدهد والقمري الصيفي شمالاً.</div><div class="next-star">التالي: سعد الأخبية ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_25.png"><div class="star-title"><h2>سعد الأخبية</h2><div class="date-info">20 مارس - 1 أبريل</div></div></div><div class="birds-info"><strong>الطيور:</strong> ذروة هجرة طيور الربيع (هجرة الانصراف).</div><div class="next-star">التالي: المقدم ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_26.png"><div class="star-title"><h2>المقدم</h2><div class="date-info">2 أبريل - 14 أبريل</div></div></div><div class="birds-info"><strong>الطيور:</strong> استمرار هجرة القمري والدخل بكثافة شمالاً.</div><div class="next-star">التالي: المؤخر ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_27.png"><div class="star-title"><h2>المؤخر</h2><div class="date-info">15 أبريل - 27 أبريل</div></div></div><div class="birds-info"><strong>الطيور:</strong> هجرة الطيور الصغيرة المتأخرة شمالاً.</div><div class="next-star">التالي: الرشاء ←</div></div>
+    <div class="star-card" style="border-right-color: #60a5fa;"><div class="star-top"><img src="images/icon_star_28.png"><div class="star-title"><h2>الرشاء</h2><div class="date-info">28 أبريل - 11 مايو</div></div></div><div class="birds-info"><strong>الطيور:</strong> نهاية هجرة الربيع وبداية استقرار طيور الصيف.</div><div class="next-star">التالي: الشرطين ←</div></div>
 </div>
-
 </body>
 </html>
